@@ -100,5 +100,5 @@ result$CHANGE_DATE<-as.Date(result$CHANGE_DATE,origin = "1970-01-01")
 
 # export result -----------------------------------------------------------
 
-name<-paste("平安活跃券指数选样_",Sys.Date(),".csv")
+name<-paste("指数选样_",Sys.Date(),".csv")
 write.csv(result,name)
